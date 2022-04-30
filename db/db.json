@@ -1,6 +1,19 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Test Title",
+        "text": "Test text"
+    },
+    {
+        "title": "Express",
+        "text": "Using Express is very fun!"
+    },
+    {
+        "title": "UUID",
+        "text": "use uuid to create an unique id"
+    },
+    {
+        "title": "Bucee",
+        "text": "hes a dog who loves to drink water",
+        "note_id": "7dcc"
     }
 ]
