@@ -67,7 +67,8 @@ app.delete('/api/notes/:id', (req, res) => {
         writeToFile('./db/db.json', parsedData);
         
         res.json(parsedData)
-    });
+    })
+    .catch((err) => { if (err) {console.error(err)} });
 });
 
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, './public/index.html')));
