@@ -1,1 +1,7 @@
-[]
+[
+	{
+		"title": "Heroku",
+		"text": "heroku login\nheroku create\ngit push heroku main",
+		"id": "6c06"
+	}
+]
