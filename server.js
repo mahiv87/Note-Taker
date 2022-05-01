@@ -59,9 +59,16 @@ app.post('/api/notes', (req, res) => {
     }
 });
 
-// app.delete('/api/notes/:id', (req, res) => {
+app.delete('/api/notes/:id', (req, res) => {
+    readFromFile('./db/db.json').then((data) => {
+        let parsedData = JSON.parse(data);
+        parsedData = parsedData.filter(({ id }) => id !== req.params.id);
 
-// });
+        writeToFile('./db/db.json', parsedData);
+        
+        res.json(parsedData)
+    });
+});
 
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, './public/index.html')));
 

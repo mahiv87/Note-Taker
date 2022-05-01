@@ -1,34 +1,12 @@
 [
 	{
-		"title": "Test Title",
-		"text": "Test text"
+		"title": "Delete ",
+		"text": "I can delete a note, except when i put in error code.",
+		"id": "51b2"
 	},
 	{
-		"title": "Express",
-		"text": "Using Express is very fun!"
-	},
-	{
-		"title": "UUID",
-		"text": "use uuid to create an unique id"
-	},
-	{
-		"title": "Bucee",
-		"text": "hes a dog who loves to drink water",
-		"note_id": "7dcc"
-	},
-	{
-		"title": "IDk",
-		"text": "i dont know what to do anymore",
-		"note_id": "90f3"
-	},
-	{
-		"title": "delete",
-		"text": "initial attempt at delete was unsuccessful",
-		"note_id": "2a8c"
-	},
-	{
-		"title": "Finally",
-		"text": "My eventlistener wasnt working because i named my note id \"note_id\", while in the frontend index.js has the note id as \"id\"",
-		"id": "cdc6"
+		"title": "Catch",
+		"text": "maybe i should try a catch?",
+		"id": "6413"
 	}
 ]
