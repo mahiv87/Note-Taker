@@ -9,7 +9,7 @@ const { clog } = require('./middleware/clog');
 const PORT = process.env.port || 3001;
 
 const app = express();
-
+// Middleware to style command line responses
 app.use(clog);
 
 app.use(express.json());
