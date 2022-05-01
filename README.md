@@ -7,7 +7,7 @@
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Mock-UP](#mockup)
+- [Mock-Up](#mock-up)
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
@@ -39,7 +39,7 @@ https://obscure-fjord-19530.herokuapp.com/
 
 ## Mock-Up
 
-![Screenshot of Note Taker]()
+![GIF of Note Taker](./images/Note%20Taker.gif)
 
 ## License
 
