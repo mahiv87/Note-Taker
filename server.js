@@ -22,7 +22,7 @@ app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, './public/note
 const readFromFile = util.promisify(fs.readFile);
 
 const writeToFile = (destination, content) =>
-    fs.writeFile(destination, JSON.stringify(content, null, 4), (err) =>
+    fs.writeFile(destination, JSON.stringify(content, null, '\t'), (err) =>
         err ? console.error(err) : console.info(`\nData written to ${destination}`)
 );
 
@@ -49,7 +49,7 @@ app.post('/api/notes', (req, res) => {
         const newNote = {
             title,
             text,
-            note_id: uuid(),
+            id: uuid(),
         };
 
         readAndAppend(newNote, './db/db.json');
@@ -58,6 +58,10 @@ app.post('/api/notes', (req, res) => {
         res.error(`Error in adding note ❌`);
     }
 });
+
+// app.delete('/api/notes/:id', (req, res) => {
+
+// });
 
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, './public/index.html')));
 

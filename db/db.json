@@ -1,19 +1,34 @@
 [
-    {
-        "title": "Test Title",
-        "text": "Test text"
-    },
-    {
-        "title": "Express",
-        "text": "Using Express is very fun!"
-    },
-    {
-        "title": "UUID",
-        "text": "use uuid to create an unique id"
-    },
-    {
-        "title": "Bucee",
-        "text": "hes a dog who loves to drink water",
-        "note_id": "7dcc"
-    }
+	{
+		"title": "Test Title",
+		"text": "Test text"
+	},
+	{
+		"title": "Express",
+		"text": "Using Express is very fun!"
+	},
+	{
+		"title": "UUID",
+		"text": "use uuid to create an unique id"
+	},
+	{
+		"title": "Bucee",
+		"text": "hes a dog who loves to drink water",
+		"note_id": "7dcc"
+	},
+	{
+		"title": "IDk",
+		"text": "i dont know what to do anymore",
+		"note_id": "90f3"
+	},
+	{
+		"title": "delete",
+		"text": "initial attempt at delete was unsuccessful",
+		"note_id": "2a8c"
+	},
+	{
+		"title": "Finally",
+		"text": "My eventlistener wasnt working because i named my note id \"note_id\", while in the frontend index.js has the note id as \"id\"",
+		"id": "cdc6"
+	}
 ]
