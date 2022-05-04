@@ -3,5 +3,10 @@
 		"title": "Heroku",
 		"text": "heroku login\nheroku create\ngit push heroku main",
 		"id": "6c06"
+	},
+	{
+		"title": "Routes",
+		"text": "I made routes just because Jay said so",
+		"id": "9560"
 	}
 ]
